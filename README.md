@@ -43,7 +43,8 @@ la base de la informacion sera dada por el ldap con la configuracion de samba co
 
 #### creacion de la red 
 ```
-docker network create --subnet 172.99.0.0/16 --gateway 172.99.0.1 sambanet```
+docker network create --subnet 172.99.0.0/16 --gateway 172.99.0.1 sambanet
+```
 arrancamos los containers 
 
 ``` 
